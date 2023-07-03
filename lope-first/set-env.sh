@@ -1,4 +1,4 @@
-launch.sh
+set -x
 
 export SCENARIO_VERSION=1.1
 kubectl scale --replicas=0 Deployment/coredns -n kube-system >> /dev/null
